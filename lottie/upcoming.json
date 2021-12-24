@@ -1,54 +1,18 @@
 {
     "upcoming": [
         {
-            "kapalcumi": {
+            "CAPT": {
+                "link": "/project/#/capt",
+                "listing_at": "2021.12.27 11:00",
                 "images": [
-                    "assets/images/ASM1/thumnail.png",
-                    "assets/images/ASM1/detail.png",
-                    "assets/images/ASM1/detail_mobile.png"
+                    "/images/CAPT/1.webp",
+                    "/images/CAPT/2.webp",
+                    "/images/CAPT/3.webp",
+                    "/images/CAPT/4.webp",
+                    "/images/CAPT/5.webp"
                 ],
-                "title": "Anargya Sinar Maritim - Bisnis Properti Kapal",
-                "description": "Pernahkah Anda kepikiran punya kapal pribadi? Di LandX, punya kapal sendiri bukan lagi sekadar mimpi. Pertama kalinya, bisnis properti kapal listing di LandX. Anda bisa jadi owner kapal perikanan yang hasil komoditinya didistribusikan setiap hari.",
-                "link": "/lp/#/kapalcumi",
-                "listing_at": "2021.08.25 11:00",
-                "dividendSchedule": "Per 4 bulan",
-                "annualRentYield": "0.1",
-                "annualRentYieldUpper": "0.15",
-                "initialTokenPrice": "1120000.0"
-            }
-        },
-        {
-            "yellowcarwash": {
-                "images": [
-                    "assets/images/YLW1/thumnail.png",
-                    "assets/images/YLW1/detail.png",
-                    "assets/images/YLW1/detail_mobile.png"
-                ],
-                "title": "Yellow Car Wash - Bisnis Cuci Mobil",
-                "description": "Bisnis Carwash Sustain 14 Tahun Listing di LandX!<br>Mana tempat yang paling sering didatangi para pemilik mobil selain SPBU?<br>Jawabannya adalah tempat cuci mobil. Dalam sehari, bisnis carwash didatangi 100-200 customer.",
-                "link": "/lp/#/yellowcarwash",
-                "listing_at": "2021.08.31 11:00",
-                "dividendSchedule": "Per 4 bulan",
-                "annualRentYield": "0.1",
-                "annualRentYieldUpper": "0.18",
-                "initialTokenPrice": "1350000.0"
-            }
-        },
-        {
-            "byurger": {
-                "images": [
-                    "assets/images/BYR1/thumnail.png",
-                    "assets/images/BYR1/detail.png",
-                    "assets/images/BYR1/detail_mobile.png"
-                ],
-                "title": "Byurger - Bisnis Restoran",
-                "description": "BYURGER Hadir di LandX!<br>Fast Food Favorit, Omset Menggigit!<br>#YukPatunganBisnis 4 cabang kedai burger cepat saji di Jakarta Selatan berkonsep artisan. 3 tahun berdiri, profitnya naik terus, pelanggannya nambah terus!",
-                "link": "/lp/#/byurger",
-                "listing_at": "2021.09.15 11:00",
-                "dividendSchedule": "Per 3 bulan",
-                "annualRentYield": "0.15",
-                "annualRentYieldUpper": "0.25",
-                "initialTokenPrice": "1000000.0"
+                "thumbnail": "/images/CAPT/thumbnail.webp",
+                "description": "<p>Mendukung kebutuhan dalam negeri dan ekspor, Kapal Satria hadir untuk meningkatkan distribusi produksi hasil bumi Indonesia. Kapal Satria terdiri dari dua kapal, yaitu kapal tongkang yang mampu memuat 5.500 ton bahan material dan kapal tunda dengan dua induk mesin bertenaga kuda.</p><p>Kapal tongkang adalah kapal pengangkut kargo pengangkut material berat seperti batubara, bijih nikel, pasir, dan hasil bumi lainnya. Kapal tongkang tidak memiliki mesin penggerak sendiri, sehingga dibutuhkan kapal tunda yang berperan sebagai manuver dan menunda kapal tongkang.</p><p>Tak redup oleh pandemi, kapal tongkang terus berkontribusi pada rantai operasional pertambangan. Bahkan kapal yang ada saat ini tidak mencukupi kebutuhan sehingga terjadi antrian pelanggan yang menjadi peluang bagi Kapal Satria.</p><br /><p>Tertarik jadi pemilik bisnis idaman yang high demand dan low competitor? Tunggu tanggal listingnya.</p><br /><p>Ingatkan saya dengan project ini:</p>"
             }
         }
     ]

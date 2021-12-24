@@ -8,20 +8,22 @@ $.when($.ready).then(function () {
             let mobileView = "";
             let desktopView = "";
             items.forEach((element, index) => {
-                let title = element.getElementsByTagName("title")[0].childNodes[0].nodeValue;
-                let description = element.getElementsByTagName("description")[0].childNodes[0].nodeValue;
-                let link = element.getElementsByTagName("link")[0].childNodes[0].nodeValue;
-                let category = element.getElementsByTagName("category")[0].childNodes[0].nodeValue;
+                let title = element.getElementsByTagName("title")[0] != undefined ? element.getElementsByTagName("title")[0].childNodes[0].nodeValue : "";
+                let description = element.getElementsByTagName("description")[0] != undefined ? element.getElementsByTagName("description")[0].childNodes[0].nodeValue : "";
+                let link = element.getElementsByTagName("link")[0] != undefined ? element.getElementsByTagName("link")[0].childNodes[0].nodeValue : "";
+                let category = element.getElementsByTagName("category")[0] != undefined ? element.getElementsByTagName("category")[0].childNodes[0].nodeValue : "LandX";
                 
                 if(index <= 2){
                     mobileView += `
                     <div class="carousel-item custom${index === 0 ? ' active' : ''}">
                         <div class="col-12">
-                            <div class="card-body p-4" style="border-radius: 12px !important;">
+                            <div class="card-body p-4" style="border-radius: 14px !important;">
                                 <p class="rss-categori">${category}</p>
                                 <p class="rss-title">${title}</p>
                                 <p class="rss-description">${description}</p>
-                                <a class="rss-btn-detail-blog" href="${link}" target="_blank">Selengkapnya di blog</a>
+                                <div class="rss-btn-detail-blog">
+                                    <a href="${link}" target="_blank">Selengkapnya di blog</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -29,11 +31,13 @@ $.when($.ready).then(function () {
 
                     desktopView += `
                     <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                        <div class="card-body p-4">
+                        <div class="card-body p-4" style="border-radius: 14px !important;">
                             <p class="rss-categori">${category}</p>
                             <p class="rss-title">${title}</p>
                             <p class="rss-description">${description}</p>
-                            <a class="rss-btn-detail-blog" href="${link}" target="_blank">Selengkapnya di blog</a>
+                            <div class="rss-btn-detail-blog">
+                                <a href="${link}" target="_blank">Selengkapnya di blog</a>
+                            </div>
                         </div>
                     </div>
                     `;
