@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "symbol": "PDM1",
+            "name": "Padang Merdeka",
+            "description": "Restoran Padang dengan segudang makanan yang menggugah selera",
+            "previewImages": [
+                "https://landx.id/images/PDM1/1.webp"
+            ],
+            "type": "Restoran"
+        }
+    ]
+}

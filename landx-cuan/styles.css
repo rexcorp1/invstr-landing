@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header.background-header {
+  min-width: 100%;
+  min-height: 1239px;
+}
+
+header .box {
+  max-width: 1320px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+header .banner-img {
+  height: 907px;
+  max-width: 100%;
+}
+header .btn-banner {
+  margin-top: -197px;
+  margin-bottom: 150px;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+header .btn-mb {
+  margin-bottom: 56px;
+}
+
+section {
+  min-height: 508px;
+}
+
+.box-video {
+  margin-bottom: -20%;
+  width: 100%;
+  max-width: 1168px;
+  height: 655px;
+}
+
+section .h4-green {
+  color: #00a339;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 96px;
+}
+section .h2-green {
+  background: -webkit-linear-gradient(
+    102deg,
+    rgba(122, 204, 140, 1) 0%,
+    rgba(4, 117, 30, 1) 75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 64px;
+}
+section .img-ticket {
+  width: 100%;
+}
+
+.section-1 {
+  min-height: 880px;
+  padding: 200px 0 0;
+}
+
+.section-2 .landx-smart {
+  margin-top: -110px;
+  width: 100%;
+}
+.section-2 .qna {
+  font-weight: 600;
+  font-size: 56px;
+  background: -webkit-linear-gradient(
+    102deg,
+    rgba(122, 204, 140, 1) 0%,
+    rgba(4, 117, 30, 1) 75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-2 .qna-p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #5e798d;
+}
+.section-2 .card {
+  padding: 16px 0;
+  margin-top: 40px;
+  border-radius: 12px;
+}
+.section-2 .bg-card {
+  background-image: linear-gradient(#fff, #d8ffeb);
+  min-height: 448px;
+}
+.section-2 .card-icon {
+  width: 96px;
+}
+.section-2 .f-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #5e798d;
+}
+.section-2 .f-card-text {
+  font-weight: 500;
+  font-size: 20px;
+  color: #5e798d;
+}
+.section-2 .container-card-icon {
+  height: 205px;
+}
+
+.section-3 {
+  margin-top: 96px;
+  padding: 96px 0;
+}
+.section-3 .title {
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(122, 204, 140, 1) 0%,
+    rgba(4, 117, 30, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 72px;
+}
+.section-3 .acc-text {
+  font-weight: 500;
+  font-size: 20px;
+  color: #425766;
+}
+.section-3 .accordion-button.collapsed::after {
+  background-image: url(./assets/icons/plus-solid.svg);
+}
+.section-3 .accordion-button:not(.collapsed)::after {
+  background-image: url(./assets/icons/minus-solid.svg);
+}
+
+.section-4 .bg-section-4 {
+  border-radius: 22px;
+  min-height: 555px;
+  margin-top: 251px;
+}
+.section-4 .title {
+  font-weight: 800;
+  font-size: 48px;
+  color: #fff;
+}
+.section-4 .btn-outline-success {
+  border-radius: 46px;
+  width: 384px;
+  height: 56px;
+  padding: 18px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2dbe60;
+}
+.section-4 .p-info {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2dbe60;
+  margin-top: 57px;
+}
+.section-4 .btn-outline-success:hover {
+  color: #fff;
+}
+.section-4 .landx-smart-2 {
+  width: 100%;
+  margin-top: -215px;
+}
+.section-4 .w-icon {
+  width: 24px;
+  height: 24px;
+  fill: red;
+}
+
+footer {
+  min-height: 500px;
+  padding: 100px 0 0;
+}
+footer .nav-1 li,
+footer .nav-2 li {
+  list-style: none;
+  margin: 20px 0;
+}
+footer .nav-1 li:first-child,
+footer .nav-2 li:first-child {
+  margin: 0 0 20px;
+}
+footer .nav-1 li a,
+footer .nav-1 li {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #00912d;
+}
+footer .nav-2 li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #00912d;
+}
+footer .nav-1 li a:hover {
+  color: #017727;
+}
+footer .nav-2 li a:hover {
+  color: #005c1d;
+}
+footer .social-icon {
+  width: 40px;
+  color: #00912d;
+  margin-bottom: 30px;
+}
+footer .social-bg-icon {
+  text-decoration: none;
+  color: #00912d;
+}
+footer .copyright {
+  font-weight: 400;
+  font-size: 16px;
+  color: #00912d;
+}
+
+/* Utils */
+.bg-radial-green {
+  background: radial-gradient(
+    circle at center,
+    rgba(115, 224, 139, 1) 0%,
+    rgba(0, 163, 38, 1) 100%
+  );
+}
+.bg-linear-gradient-270 {
+  background: rgb(45, 190, 96);
+  background: linear-gradient(
+    329deg,
+    rgba(45, 190, 96, 1) 0%,
+    rgba(185, 255, 176, 1) 20%
+  );
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-96 {
+  margin-top: 96px;
+}
+.mb-64 {
+  margin-bottom: 64px;
+}
+.mb-56 {
+  margin-bottom: 56px;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #00912d;
+  font-weight: 700;
+  font-size: 24px;
+  width: 375px;
+  height: 53px;
+  border-radius: 30px;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-white:hover {
+  background-color: rgb(238, 238, 238);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.btn-outline-white {
+  background-color: transparent;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 16px;
+  width: 375px;
+  height: 53px;
+  border-radius: 26px;
+  border: 3px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-outline-white:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.numStyle {
+  width: 24px;
+  height: 24px;
+  background-image: linear-gradient(#fff, #d8ffeb);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  padding: 8px;
+}
+
+.accordion-button,
+.accordion-flush .accordion-item,
+.accordion-flush .accordion-item .accordion-button,
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 13px;
+}
+
+.swiper-slide {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide {
+  width: 457px;
+}
+.swiper-pagination-bullet-active {
+  background: #5e798d;
+  width: 22px;
+  border-radius: 10px;
+}
+.swiper {
+  position: unset;
+}
+.swipper-container {
+  position: relative;
+  height: 525px;
+}
